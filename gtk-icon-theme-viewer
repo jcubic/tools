@@ -109,7 +109,7 @@ class IconThemeViewerApp(object):
 		
 		cr = gtk.CellRendererText()
 		cr.set_property( "ellipsize", pango.ELLIPSIZE_END )
-		cr.set_property( "width", 120 )
+		cr.set_property( "width", 250 )
 		self.theme_view.pack_end( cr, False )
 		self.theme_view.set_attributes( cr, text=0 )
 		
